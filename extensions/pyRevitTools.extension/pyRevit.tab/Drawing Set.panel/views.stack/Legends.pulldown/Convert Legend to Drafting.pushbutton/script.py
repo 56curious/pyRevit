@@ -83,3 +83,4 @@ if legends:
                                new_name)
             revit.update.set_name(dest_view, new_name)
             dest_view.Scale = src_legend.Scale
+    print('Processed Document')
